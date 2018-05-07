@@ -1,0 +1,25 @@
+{
+  "name": "distributedchatsystem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "chat.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idrivebears/DistributedChatSystem.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idrivebears/DistributedChatSystem/issues"
+  },
+  "homepage": "https://github.com/idrivebears/DistributedChatSystem#readme",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "bully": "^0.2.3",
+    "moment": "^2.19.3",
+    "twitter": "^1.7.1"
+  }
+}
