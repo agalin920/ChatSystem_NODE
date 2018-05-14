@@ -286,7 +286,7 @@ function startClient(){
             }
             peer.forEach(function(element) {
               if(element.user == s){
-                var message = Buffer.from('{"msgType": "chat", "coordinator": false, "broadcast": false, "message":"'+thisUser+'(private): '+user.substring(i, user.length)+'"}');
+                var message = Buffer.from('{"msgType": "chat", "coordinator": false, "broadcast": false, "message":"'+thisUser+'(privado): '+user.substring(i, user.length)+'"}');
                 if(element.address != thisAddress && element.port != thisPort){
                   client.send(message, 0, message.length, element.port, element.address, function(err, bytes) {
                   });
